@@ -36,22 +36,16 @@ body {
 /* background */
 
 .background {
-  position: absolute;
-  z-index: -10;
+  z-index: -1;
 }
 
 .bg-top {
-  transform: translate(-50%, 15%);
+  position: absolute;
+  transform: translate(20%, -75%);
 }
 .bg-bottom {
-  transform: translate(50%, -10%);
-}
-
-.top-background {
-  transform: translate(-70%, -50%);
-}
-.bottom-background {
-  transform: translate(60%, 50%);
+  position: absolute;
+  transform: translate(120%, 0%);
 }
 
 /* Typography */
